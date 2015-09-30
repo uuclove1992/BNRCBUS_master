@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#36ADD6" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="公交圈"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_news_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:id="@+id/tableLayout_travel"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:paddingTop="5dip" >
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="5dip" >
+
+                        <TextView
+                            android:id="@+id/gongjiaochuxing"
+                            android:layout_width="fill_parent"
+                            android:layout_height="117dp"
+                            android:background="#FF3366"
+                            android:drawableBottom="@drawable/gongjiaochuxingwuyou"
+                            android:gravity="top"
+                            android:padding="5dip"
+                            android:text="公交出行"
+                            android:textColor="#ffffff"
+                            android:textSize="15dip" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:drawable="@drawable/shop_buy" />
+
+                        <TextView
+                            android:id="@+id/shoucangzhandian"
+                            android:layout_width="fill_parent"
+                            android:layout_height="116dp"
+                            android:layout_marginTop="10dip"
+                            android:background="#FF6600"
+                            android:drawableBottom="@drawable/zhandianshoucang"
+                            android:gravity="top"
+                            android:padding="5dip"
+                            android:text="站点收藏"
+                            android:textColor="#ffffff"
+                            android:textSize="15dip" />
+
+                        <TextView
+                            android:id="@+id/shoucangxianlu"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dip"
+                            android:layout_weight="1"
+                            android:background="#009933"
+                            android:drawableBottom="@drawable/shop_girl"
+                            android:gravity="top"
+                            android:padding="5dip"
+                            android:text="线路收藏"
+                            android:textColor="#ffffff"
+                            android:textSize="15dip" />
+
+                        <TextView
+                            android:id="@+id/tixingzhandian"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="10dip"
+                            android:layout_weight="1"
+                            android:background="#913EB0"
+                            android:drawableBottom="@drawable/tixingzhandian"
+                            android:gravity="top"
+                            android:padding="5dip"
+                            android:text="提醒站点"
+                            android:textColor="#ffffff"
+                            android:textSize="15dip" />
+                    </LinearLayout>
+                    <!-- 2 -->
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="5dip" >
+
+                        <TextView
+                            android:id="@+id/dianying"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#CC33FF"
+                            android:drawableBottom="@drawable/dianying"
+                            android:gravity="top"
+                            android:padding="10dip"
+                            android:text="电影"
+                            android:textColor="#ffffff"
+                            android:textSize="15dip" />
+
+                        <TextView
+                            android:id="@+id/canting"
+                            android:layout_width="fill_parent"
+                            android:layout_height="109dp"
+                            android:layout_marginTop="10dip"
+                            android:background="#00CCFF"
+                            android:drawableBottom="@drawable/meishi"
+                            android:gravity="top"
+                            android:padding="5dip"
+                            android:text="美食小吃"
+                            android:textColor="#ffffff"
+                            android:textSize="15dip" />
+
+                        <TextView
+                            android:id="@+id/yinhang"
+                            android:layout_width="fill_parent"
+                            android:layout_height="110dp"
+                            android:layout_marginTop="10dip"
+                            android:background="#99CC00"
+                            android:drawableBottom="@drawable/atm"
+                            android:gravity="top"
+                            android:padding="5dip"
+                            android:text="银行ATM"
+                            android:textColor="#ffffff"
+                            android:textSize="15dip" />
+
+                        <TextView
+                            android:id="@+id/chaoshi"
+                            android:layout_width="fill_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dip"
+                            android:background="#016Cf0"
+                            android:drawableBottom="@drawable/chaoshi"
+                            android:gravity="top"
+                            android:padding="5dip"
+                            android:text="超市"
+                            android:textColor="#ffffff"
+                            android:textSize="15dip" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
